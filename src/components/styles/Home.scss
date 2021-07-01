@@ -1,0 +1,43 @@
+Main {
+  display: flex;
+  flex-direction: column;
+  font-family: 'optima';
+}
+
+
+
+.front-page {
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-family: 'optima';
+  font-size: 50px;
+
+  p {
+    padding-top: 80px;
+    width: 30vw;
+    padding-left: 0.5vw;
+  }
+
+  .main_photo {
+    display: block;
+    margin: auto;
+    // height: 95vh;
+    width: 45vw;
+    margin: 0;
+    margin-top: -25px;
+    margin-left: 4vw;
+  }
+  
+  .main_words {
+    width: 40vw;
+    margin-left: 4vw;
+  }
+
+  button {
+    height: 50px;
+    width: 250px;
+    margin-left: 10px;
+  }
+}
